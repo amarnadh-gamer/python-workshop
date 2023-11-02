@@ -1,0 +1,15 @@
+s1={1,2,3}
+s2={2,3,4}
+s3={3,4,5}
+s4=s1.intersection(s2,s3)
+print(s4)
+s5=s1.difference(s2,s3)
+print(s5)
+s6=s1.difference(s2)
+print(s6)
+s7=s2.difference(s1)
+print(s7)
+s8=s2.symmetric_difference(s1)
+print(s8)
+s9=s1.symmetric_difference(s3)
+print(s9)
